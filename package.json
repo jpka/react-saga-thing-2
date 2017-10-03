@@ -1,0 +1,40 @@
+{
+  "name": "saga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node ./tests/saga.test.js | tap-spec",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "keywords": [],
+  "author": "bt",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^6.2.8",
+    "babel-polyfill": "6.3.14",
+    "express": "^4.14.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1",
+    "redux-saga": "^0.8.0",
+    "serve-static": "^1.11.1",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.1.18",
+    "babel-core": "6.4.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-2": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "budo": "^8.0.4",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.13.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.2.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
